@@ -5,9 +5,7 @@ const Page = async () => {
     await requireUnauth();
 
     return (
-        <div className="max-w-3xl flex items-center justify-center mx-auto">
-            <LoginForm />
-        </div>
+        <LoginForm />
     )
 }
 
